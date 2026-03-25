@@ -1,0 +1,144 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ================================
+# Backend (Python / FastAPI)
+# ================================
+Backend/__pycache__/
+Backend/*.py[cod]
+Backend/*$py.class
+Backend/*.so
+Backend/.Python
+Backend/build/
+Backend/develop-eggs/
+Backend/dist/
+Backend/downloads/
+Backend/eggs/
+Backend/.eggs/
+Backend/lib/
+Backend/lib64/
+Backend/parts/
+Backend/sdist/
+Backend/var/
+Backend/wheels/
+Backend/share/python-wheels/
+Backend/*.egg-info/
+Backend/.installed.cfg
+Backend/*.egg
+
+Backend/pip-log.txt
+Backend/pip-delete-this-directory.txt
+
+Backend/htmlcov/
+Backend/.tox/
+Backend/.nox/
+Backend/.coverage
+Backend/.coverage.*
+Backend/.cache
+Backend/nosetests.xml
+Backend/coverage.xml
+Backend/*.cover
+Backend/*.py,cover
+Backend/.hypothesis/
+Backend/.pytest_cache/
+Backend/cover/
+
+Backend/.env
+Backend/.venv
+Backend/env/
+Backend/venv/
+Backend/ENV/
+Backend/env.bak/
+Backend/venv.bak/
+
+Backend/.mypy_cache/
+Backend/.rufo_cache/
+Backend/.pyre/
+Backend/.pytype/
+Backend/cython_debug/
+
+# Database files
+Backend/*.sqlite3
+Backend/*.db
+
+# ================================
+# Frontend (React Native & Expo)
+# ================================
+Frontend/node_modules/
+Frontend/.expo/
+Frontend/dist/
+Frontend/web-build/
+Frontend/expo-env.d.ts
+
+Frontend/.kotlin/
+Frontend/*.orig.*
+Frontend/*.jks
+Frontend/*.p8
+Frontend/*.p12
+Frontend/*.key
+Frontend/*.mobileprovision
+
+Frontend/.metro-health-check*
+
+Frontend/npm-debug.*
+Frontend/yarn-debug.*
+Frontend/yarn-error.*
+
+Frontend/.env*.local
+Frontend/.env
+
+Frontend/*.tsbuildinfo
+
+# Ignore native folders
+Frontend/ios/
+Frontend/android/
+
+# ================================
+# Global Secrets & General
+# ================================
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+*.secret
+secrets.json
+google-services.json
+GoogleService-Info.plist
+
+# iOS Native Build Files
+Frontend/ios/Pods/
+Frontend/ios/build/
+Frontend/ios/DerivedData/
+Frontend/ios/.symlinks/
+Frontend/ios/Pods.xcodeproj/
+Frontend/ios/**/*.xcworkspace/xcuserdata/
+Frontend/ios/**/*.xcodeproj/xcuserdata/
+Frontend/ios/**/*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Android Native Build Files
+Frontend/android/.gradle/
+Frontend/android/build/
+Frontend/android/app/build/
+Frontend/android/local.properties
